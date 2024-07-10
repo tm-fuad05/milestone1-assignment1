@@ -74,3 +74,53 @@ letter-spacing: 0%;
 text-align: center;
 border: none;
 }
+.my-ins{
+    margin: 50px 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.my-ins .title-description{
+    width:800px ;
+}
+.my-ins .title-description .my-inspiration{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 25px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.my-ins .title-description .description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+.my-ins .video{
+    margin-top: 30px;
+    width:977px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding:30px ;
+/* margin: 30px; */
+ 
+}
+.my-ins .video iframe{
+    border-radius: 14px;
+    
+}
