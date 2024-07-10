@@ -201,6 +201,8 @@ text-decoration-line: underline;
 }
 .cards .card .card-content{
     width: 270px;
+
+    
 }
 .cards{
     display: flex;
@@ -216,6 +218,92 @@ gap: 20px;
 #js{
     background: rgba(255, 223, 0, 0.05);
 }
+.sec-4{
+    
+    width: 977px;
+    height: 280px;
+    margin: 50px auto;
+    margin-top: 18px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+.support{
+    /* width: 977px;
+    margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+.support .sup-titdes{
+    width: 800px;
+    margin-bottom: 20px;
+}
+.sec-4 .support .sup-tit{
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 25px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.sec-4 .support .sup-des{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+/* .sec-4 .form{
+    width: 200px;
+} */
+.sec-4 .support form{
+    display:flex ;
+   
+    gap: 15px;
+    width: 75%;
+}
+.sec-4 form input[type="text"] {
+ padding-left: 20px;
+ width: 100%;
+height: 48px;
+ border-radius: 12px;
+ border: none;
+ color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+/* line-height: 19px; */
+letter-spacing: 0%;
+text-align: left;
+}
+.sec-4 form input[type="submit"]{
+    border-radius: 9px;
+background: rgb(255, 255, 255);
+border: none;
+padding: 0 20px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
 
 
 
