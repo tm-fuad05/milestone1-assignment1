@@ -52,7 +52,7 @@ margin-top: 15px;
     margin-top: 0;
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 13px;
+font-size: 14px;
 font-weight: 500;
 line-height: 26px;
 letter-spacing: 0%;
@@ -74,19 +74,19 @@ letter-spacing: 0%;
 text-align: center;
 border: none;
 }
-.my-ins{
+.sec-2{
     margin: 50px 0;
-    
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
-.my-ins .title-description{
+.sec-2 .title-description{
     width:800px ;
 }
-.my-ins .title-description .my-inspiration{
+.sec-2 .title-description .my-inspiration{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 25px;
@@ -95,10 +95,10 @@ line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
 }
-.my-ins .title-description .description{
+.sec-2 .title-description .description{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 13px;
+font-size: 14px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
@@ -106,7 +106,7 @@ text-align: center;
 opacity: 0.7;
 
 }
-.my-ins .video{
+.sec-2 .video{
     margin-top: 30px;
     width:977px;
     
@@ -120,7 +120,148 @@ padding:30px ;
 /* margin: 30px; */
  
 }
-.my-ins .video iframe{
+.sec-2 .video iframe{
     border-radius: 14px;
     
+}
+.sec-3{
+    /* width: 977px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec-3 .tit-and-des{
+    width: 800px;
+}
+.sec-3 .tit-and-des .tit{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 25px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.sec-3 .tit-and-des .des{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.sec-3{
+    margin: px 0;
+    /* width: 1070px; */
+    margin: 0 auto;
+}
+.cards .card{
+    width: 240px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 39px;
+    
+}
+.cards .card .card-tit{
+    margin-top: 13px;
+    margin-bottom: 0px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 22px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.cards .card .card-des{
+    
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.sec-3 a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+
+}
+.cards .card .card-content{
+    width: 270px;
+}
+.cards{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+ margin-top: 30px;
+ margin-bottom: 50px;
+}
+#css{
+    background: rgba(0, 76, 232, 0.05);
+}
+#js{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height:70px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+footer p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+
+}
+footer .icons{
+    display: flex;
+    gap: 20px;
+}
+footer .icons .fb,.git,.li{
+    cursor: pointer;
+}
+.banner .btn button{
+    cursor: pointer;
+}
+.my-crnt-tar{
+    width: 977px;
 }
